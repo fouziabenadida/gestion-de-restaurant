@@ -1,48 +1,42 @@
 <template>
- <img class="logo" src="https://media.istockphoto.com/vectors/restaurant-food-drinks-logo-fork-knife-background-vector-image-vector-id981368726?k=20&m=981368726&s=612x612&w=0&h=Um4YOExWlUgOfpUs2spnN0NrrXs-M71OUuUMbStVFNQ="/>
- <h1 class="title">Sign Up</h1>
- <div class="register">
-    <input type="text" placeholder="Enter Name"/>
-    <input type="text" placeholder="Enter Email"/>
-    <input type="password" placeholder="Enter Password"/>
-    <button>Sign up</button>
- </div>
+  <v-container fluid>
+   
+    <v-row class="mb-4" justify="center">
+      <v-col cols="2">
+        <img
+          class="logo ml-10"
+          src="https://media.istockphoto.com/vectors/restaurant-food-drinks-logo-fork-knife-background-vector-image-vector-id981368726?k=20&m=981368726&s=612x612&w=0&h=Um4YOExWlUgOfpUs2spnN0NrrXs-M71OUuUMbStVFNQ="
+        />
+      </v-col>
+    </v-row>
+
+    <v-row class="mt-10" justify="center">
+      <v-col class="mt-10" cols="6">
+        <v-form lazy-validation>
+        <v-text-field label="Enter Name" required> </v-text-field>
+        <v-text-field  label="Enter Email" required> </v-text-field>
+        <v-text-field   type="password" label="Enter Password" required>
+        </v-text-field>
+        <v-btn class="mr-4" color="success"> Sign Up </v-btn>
+    </v-form>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 <script>
 export default {
-    name: 'SignUp',
-}
+  name: "SignUp",
+};
 </script>
 <style scoped>
-.logo{
-    width: 100px;
-    margin-left: 900px;
-    margin-top: 10px;
+.logo {
+  left: 53%;
+  width: 100px;
+  margin-left: -125px !important;
+  position: absolute;
+  margin-right: 55% !important;
 }
-.register input {
-    width: 300px;
-    height: 40px;
-    padding-left: 20px;
-    display: block;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid skyblue;
-}
-.title{
-    margin-left: 900px;
-    margin-bottom: 20px;
-}
-.register button{
-    width: 300px;
-    height: 40px;
-    border: 1px solid skyblue;
-    background: skyblue;
-    color: white;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
 
 </style>
