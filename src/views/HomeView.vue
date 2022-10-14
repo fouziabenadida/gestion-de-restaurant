@@ -1,5 +1,5 @@
 <template>
-<div>hello welcome home</div>
+<h1>hello welcome home</h1>
 </template>
 
 <script lang="ts">
@@ -11,8 +11,11 @@ import { defineComponent } from 'vue';
 export default defineComponent({
 
 
-  components: {
-  
-  },
+  mounted() {
+    let user = localStorage.getItem('user-info');
+    if (!user) {
+      this.$router.push({name: 'SignUp'})
+    }
+  }
 });
 </script>
