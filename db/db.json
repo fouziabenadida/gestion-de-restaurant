@@ -5,6 +5,42 @@
       "email": "fouzia@test.com",
       "password": "123",
       "id": 1
+    },
+    {
+      "name": "fouzia adida",
+      "email": "fouzia@test.com",
+      "password": "56757",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "deneme@deneme.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "fouzia",
+      "email": "fouzia@test.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "fouzia",
+      "email": "fouzia@test.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "fouzia adida",
+      "email": "fouzia@test.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "name": "fouzia",
+      "email": "fouzia@test.com",
+      "password": "123",
+      "id": 7
     }
   ]
 }
