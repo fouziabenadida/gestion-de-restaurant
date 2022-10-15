@@ -42,7 +42,17 @@ export default {
         `http://localhost:3000/users?email=${this.email}&password=${this.password}`
       );
       console.warn(result);
+      if (result.status == 200 && result.data.length > 0) {
+        localStorage.setItem("user-info", JSON.stringify(result.data));
+        this.$router.push({ name: "home" });
+      }
     },
+  },
+  mounted() {
+    let user = localStorage.getItem("user-info");
+    if (user) {
+      this.$router.push({ name: "home" });
+    }
   },
 };
 </script>
