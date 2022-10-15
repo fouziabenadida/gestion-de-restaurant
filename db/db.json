@@ -29,6 +29,36 @@
       "email": "fero@test.com",
       "password": "123",
       "id": 5
+    },
+    {
+      "email": "fouzia@test.com",
+      "name": "fouzia",
+      "password": "1123",
+      "id": 6
+    },
+    {
+      "email": "enes@gmail.com",
+      "name": "",
+      "password": "qwe123qwe",
+      "id": 7
+    },
+    {
+      "email": "fouzia@test.com",
+      "name": "fouzia",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "email": "deneme@deneme.com",
+      "name": "fouzia",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "email": "fouzia@test.com",
+      "name": "fouzia",
+      "password": "123",
+      "id": 10
     }
   ]
 }

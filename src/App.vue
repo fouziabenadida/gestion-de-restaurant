@@ -1,10 +1,10 @@
 <template>
-  <router-view></router-view>
+  <LayoutView></LayoutView>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-
+import LayoutView from "@/views/LayoutView.vue";
 export default defineComponent({
   name: "App",
 
@@ -13,12 +13,8 @@ export default defineComponent({
       //
     };
   },
-  mounted() {
-    let user = localStorage.getItem("user-info");
-    if (!user) {
-      this.$router.push({ name: "SignUp" });
-    }
+  components: {
+    LayoutView,
   },
-  components: {},
 });
 </script>

@@ -43,14 +43,13 @@ export default {
       );
       console.warn(result);
       if (result.status == 200 && result.data.length > 0) {
-        localStorage.setItem("user-info", JSON.stringify(result.data));
+        this.$store.dispatch("login", result.data[0]);
         this.$router.push({ name: "home" });
       }
     },
   },
   mounted() {
-    let user = localStorage.getItem("user-info");
-    if (user) {
+    if (this.$store.state.user) {
       this.$router.push({ name: "home" });
     }
   },

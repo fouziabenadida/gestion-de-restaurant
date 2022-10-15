@@ -1,11 +1,11 @@
 <template>
   <v-layout>
-    <v-navigation-drawer permanent>
+    <v-navigation-drawer v-if="$store.state.user" permanent>
       <template v-slot:prepend>
         <v-list-item
           two-line
           prepend-avatar="https://media.istockphoto.com/vectors/restaurant-food-drinks-logo-fork-knife-background-vector-image-vector-id981368726?k=20&m=981368726&s=612x612&w=0&h=Um4YOExWlUgOfpUs2spnN0NrrXs-M71OUuUMbStVFNQ="
-          title="Jane Smith"
+          :title="'Welcome ' + $store.getters.getWelcomeMessage"
           subtitle="Logged in"
         ></v-list-item>
       </template>
@@ -47,5 +47,13 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   components: {},
+  created() {
+    let user = localStorage.getItem("user-info");
+    if (user) {
+      this.$store.dispatch("login", JSON.parse(user));
+    } else {
+      this.$router.push({ name: "SignUp" });
+    }
+  },
 });
 </script>
