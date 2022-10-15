@@ -1,0 +1,51 @@
+<template>
+  <v-layout>
+    <v-navigation-drawer permanent>
+      <template v-slot:prepend>
+        <v-list-item
+          two-line
+          prepend-avatar="https://media.istockphoto.com/vectors/restaurant-food-drinks-logo-fork-knife-background-vector-image-vector-id981368726?k=20&m=981368726&s=612x612&w=0&h=Um4YOExWlUgOfpUs2spnN0NrrXs-M71OUuUMbStVFNQ="
+          title="Jane Smith"
+          subtitle="Logged in"
+        ></v-list-item>
+      </template>
+
+      <v-divider></v-divider>
+
+      <v-list density="compact" nav>
+        <v-list-item
+          prepend-icon="mdi-home-city"
+          title="Home"
+          value="home"
+        ></v-list-item>
+        <v-list-item
+          prepend-icon="mdi-account"
+          title="My Account"
+          value="account"
+        ></v-list-item>
+        <v-list-item
+          prepend-icon="mdi-account-group-outline"
+          title="Users"
+          value="users"
+        ></v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+    <v-main>
+      <v-container fluid>
+        <v-row>
+          <v-col>
+            <router-view></router-view>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-main>
+  </v-layout>
+</template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  components: {},
+});
+</script>
