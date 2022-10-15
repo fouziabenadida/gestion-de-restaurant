@@ -5,12 +5,5 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-export default defineComponent({
-  mounted() {
-    let user = localStorage.getItem("user-info");
-    if (!user) {
-      this.$router.push({ name: "SignUp" });
-    }
-  },
-});
+export default defineComponent({});
 </script>
