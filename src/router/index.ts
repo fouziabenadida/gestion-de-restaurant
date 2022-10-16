@@ -25,6 +25,15 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../components/Login.vue"),
   },
+  {
+    path: "/add-resto",
+    name: "AddResto",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/AddResto.vue"),
+  },
 ];
 
 const router = createRouter({
