@@ -32,6 +32,7 @@
           prepend-icon="mdi-logout-variant"
           title="Logout"
           value="logout"
+          @click="logout()"
         ></v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -59,6 +60,13 @@ export default defineComponent({
     } else {
       this.$router.push({ name: "SignUp" });
     }
+  },
+  methods: {
+    logout() {
+      console.warn("logout");
+      localStorage.clear();
+      this.$router.push({ name: "Login" });
+    },
   },
 });
 </script>

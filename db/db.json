@@ -59,6 +59,18 @@
       "name": "fouzia",
       "password": "123",
       "id": 10
+    },
+    {
+      "email": "fouzia@test.com",
+      "name": "fouzia",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "email": "deneme@deneme.com",
+      "name": "fouzia",
+      "password": "1234",
+      "id": 12
     }
   ]
 }
