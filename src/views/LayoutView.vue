@@ -31,7 +31,6 @@
         <v-list-item
           prepend-icon="mdi-logout-variant"
           title="Logout"
-          value="logout"
           @click="logout()"
         ></v-list-item>
       </v-list>
@@ -58,7 +57,7 @@ export default defineComponent({
     if (user) {
       this.$store.dispatch("login", JSON.parse(user));
     } else {
-      this.$router.push({ name: "SignUp" });
+      this.$router.push({ name: "Login" });
     }
   },
   methods: {
