@@ -5,7 +5,7 @@
         <v-list-item
           two-line
           prepend-avatar="https://media.istockphoto.com/vectors/restaurant-food-drinks-logo-fork-knife-background-vector-image-vector-id981368726?k=20&m=981368726&s=612x612&w=0&h=Um4YOExWlUgOfpUs2spnN0NrrXs-M71OUuUMbStVFNQ="
-          :title="'Welcome ' + $store.getters.getWelcomeMessage"
+          :title="$store.getters.getWelcomeMessage"
           subtitle="Logged in"
         ></v-list-item>
       </template>
@@ -20,13 +20,18 @@
         ></v-list-item>
         <v-list-item
           prepend-icon="mdi-account"
-          title="My Account"
+          title="Add Restaurant"
           value="account"
         ></v-list-item>
         <v-list-item
-          prepend-icon="mdi-account-group-outline"
-          title="Users"
-          value="users"
+          prepend-icon="mdi-update"
+          title="Update Restaurant"
+          value="update"
+        ></v-list-item>
+        <v-list-item
+          prepend-icon="mdi-logout-variant"
+          title="Logout"
+          value="logout"
         ></v-list-item>
       </v-list>
     </v-navigation-drawer>
