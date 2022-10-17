@@ -10,6 +10,7 @@
               <th class="text-left">Name</th>
               <th class="text-left">Contact</th>
               <th class="text-left">Adress</th>
+              <th class="text-left">Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -18,6 +19,7 @@
               <td>{{ item.name }}</td>
               <td>{{ item.contact }}</td>
               <td>{{ item.adress }}</td>
+              <td><router-link :to="'/update/' + item.id">Update</router-link></td>
             </tr>
           </tbody>
         </v-table>

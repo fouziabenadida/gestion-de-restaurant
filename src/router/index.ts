@@ -34,6 +34,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AddResto.vue"),
   },
+  {
+    path: "/update/:id",
+    name: "UpdateResto",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Update.vue"),
+  },
 ];
 
 const router = createRouter({

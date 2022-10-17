@@ -29,6 +29,7 @@
           prepend-icon="mdi-update"
           title="Update Restaurant"
           value="update"
+          @click="goUpdate"
         ></v-list-item>
         <v-list-item
           prepend-icon="mdi-logout-variant"
@@ -73,6 +74,9 @@ export default defineComponent({
     },
     goHome() {
       this.$router.push('/')
+    },
+    goUpdate() {
+      this.$router.push('/update')
     }
   },
 });
