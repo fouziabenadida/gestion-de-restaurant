@@ -96,113 +96,127 @@
       "id": "1",
       "name": "Burger King",
       "contact": 512368548,
-      "adress": "Noida Sector 50",
-      "image": "https://www.uniqistanbul.com/wp-content/uploads/2019/09/1-4.jpg"
+      "adress": "Noida Sector 50"
     },
     {
       "id": "2",
       "name": "Dominos",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "3",
       "name": "Carl's Jr",
       "contact": 463792,
-      "adress": "Babacan apt 52",
-      "image": "https://cdn.getiryemek.com/products/1646321517540_500x375.jpeg"
+      "adress": "Babacan apt 52"
     },
     {
       "id": "4",
       "name": "Tavuk Dunyasi",
       "contact": 9647243,
-      "adress": "Emaar Squqre 52",
-      "image": "https://i.nefisyemektarifleri.com/2019/02/27/tavuk-dunyasi-menusu-fiyat-listesi-2019-daha-iyisini-yemediniz-500x333.jpg"
+      "adress": "Emaar Squqre 52"
     },
     {
       "id": "5",
       "name": "Gunaydin",
       "contact": 15397,
-      "adress": "Hello site 23",
-      "image": "https://3.bp.blogspot.com/-KRLhWO8d3vk/XDFGNW_1IhI/AAAAAAAASd8/tbNSft5hvXAD9ovhRmBJitFgbUJ86g2jACLcBGAs/s1600/gunaydin%2Bankara%2Bmenu%2Bfiyatlari.jpg"
+      "adress": "Hello site 23"
     },
     {
       "id": "6",
       "name": "KFC",
       "contact": 15698,
-      "adress": "Ile de Paris 75",
-      "image": "https://kfcturkiye.com/uploads/products/81/4-kose-kova.jpg"
+      "adress": "Ile de Paris 75"
     },
     {
       "id": "7",
       "name": "PizzaGo",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "8",
       "name": "Green Salad",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "9",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "10",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "11",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "12",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "13",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "14",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "15",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
     },
     {
       "id": "16",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
-      "adress": "Amacan site 23",
-      "image": "https://media-cdn.tripadvisor.com/media/photo-s/18/a2/89/c3/dominooooooooooo.jpg"
+      "adress": "Amacan site 23"
+    },
+    {
+      "name": "kfc",
+      "adress": "wrfbhgf",
+      "contact": "1258",
+      "id": "7xr4e3A"
+    },
+    {
+      "name": "tavuk",
+      "adress": "paris ile de france",
+      "contact": "12358",
+      "id": "GC-AJXz"
+    },
+    {
+      "name": "cafe de paris",
+      "adress": "istanbul 34000",
+      "contact": "12358",
+      "id": "JBnZKNK"
+    },
+    {
+      "name": "eere",
+      "adress": "eee",
+      "contact": "eeer",
+      "id": "32NuSHF"
+    },
+    {
+      "name": "dfghgh",
+      "adress": "serdu",
+      "contact": "reyutı",
+      "id": "4e35G4P"
     }
   ]
 }

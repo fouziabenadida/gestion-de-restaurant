@@ -17,10 +17,12 @@
           prepend-icon="mdi-home-city"
           title="Home"
           value="home"
+          @click="goHome"
         ></v-list-item>
         <v-list-item
           prepend-icon="mdi-account"
           title="Add Restaurant"
+          @click="goAddResto"
           value="account"
         ></v-list-item>
         <v-list-item
@@ -66,6 +68,12 @@ export default defineComponent({
       localStorage.clear();
       this.$router.push({ name: "Login" });
     },
+    goAddResto() {
+      this.$router.push('/add-resto')
+    },
+    goHome() {
+      this.$router.push('/')
+    }
   },
 });
 </script>
