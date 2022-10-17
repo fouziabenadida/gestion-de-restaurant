@@ -15,7 +15,7 @@
           v-model="Restaurant.contact"
           label="Enter Contact"
         ></v-text-field>
-        <v-btn @click="addRestaurant" color="success">
+        <v-btn @click="updateRestaurant" color="success">
           Update Restaurant</v-btn
         >
       </v-form>
@@ -37,10 +37,23 @@ export default {
     }
   },
 
+
  async mounted() {
     let result =  await axios.get('http://localhost:3000/restaurants/' + this.$route.params.id)
     console.warn(result)
     this.Restaurant = result.data
+  },
+  methods:{
+  async updateRestaurant () {
+   let res = await axios.post('http://localhost:3000/restaurants',{
+    name: this.Restaurant.name,
+    adress: this.Restaurant.adress,
+    contact: this.Restaurant.contact
+   });
+   if (res.status==201) {
+    this.$router.push('/')
+   }
   }
+  },
 };
 </script>
