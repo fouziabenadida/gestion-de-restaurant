@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: "UpdateResto",
   data() {
@@ -34,6 +35,12 @@ export default {
         contact: "",
       }, 
     }
+  },
+
+ async mounted() {
+    let result =  await axios.get('http://localhost:3000/restaurants/' + this.$route.params.id)
+    console.warn(result)
+    this.Restaurant = result.data
   }
 };
 </script>

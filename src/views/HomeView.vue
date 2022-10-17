@@ -19,7 +19,7 @@
               <td>{{ item.name }}</td>
               <td>{{ item.contact }}</td>
               <td>{{ item.adress }}</td>
-              <td><router-link :to="'/update/' + item.id">Update</router-link></td>
+              <td><router-link class="uplink" :to="'/update/' + item.id">Update</router-link></td>
             </tr>
           </tbody>
         </v-table>
@@ -45,3 +45,13 @@ export default {
   },
 };
 </script>
+<style scoped>
+.uplink{
+  text-decoration: none;
+  color: black;
+  
+}
+.uplink:hover{
+color: rgb(165, 42, 147);
+}
+</style>
