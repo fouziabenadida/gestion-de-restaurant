@@ -89,14 +89,20 @@
       "name": "",
       "password": "1234",
       "id": 15
+    },
+    {
+      "email": "fouzia@test.com",
+      "name": "fouzia",
+      "password": "123",
+      "id": 16
     }
   ],
   "restaurants": [
     {
-      "id": "10",
-      "name": "Kayseri Mutfak",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
+      "name": "Kayseri Mutfak 1",
+      "adress": "Amacan site 23",
+      "contact": "9999999",
+      "id": "10"
     },
     {
       "name": "Burger King",
@@ -111,7 +117,7 @@
       "id": "5mfppP0"
     },
     {
-      "name": "Green Salad ",
+      "name": "Green ",
       "adress": "Toulouse ",
       "contact": "1259872",
       "id": "CFGtwnQ"
@@ -145,6 +151,18 @@
       "adress": "Paris",
       "contact": "2368787",
       "id": "0aM5eJq"
+    },
+    {
+      "name": "Yemek",
+      "adress": "cite 31",
+      "contact": "1358854",
+      "id": "FYj4Wtb"
+    },
+    {
+      "name": "Ekmek",
+      "adress": "Paris",
+      "contact": "65984",
+      "id": "R6wZ61c"
     }
   ]
 }

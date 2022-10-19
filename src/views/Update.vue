@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center">
     <v-col class="pt-6" cols="12" sm="12" md="4" lg="6">
-      <h1 class="pb-6" style="text-align: center">Update Restaurant</h1>
+      <h1 class="pb-6" style="text-align: center">Welcome User to Update Restaurant page</h1>
       <v-form lazy-validation>
         <v-text-field
           v-model="Restaurant.name"
