@@ -15,7 +15,7 @@
           v-model="Restaurant.contact"
           label="Enter Contact"
         ></v-text-field>
-        <v-btn @click="updateRestaurant" color="success">
+        <v-btn @click="updateRestaurant()" color="success">
           Update Restaurant</v-btn
         >
       </v-form>
@@ -24,36 +24,40 @@
 </template>
 
 <script>
-import axios from 'axios'
+import axios from "axios";
 export default {
   name: "UpdateResto",
   data() {
     return {
-        Restaurant: {
+      Restaurant: {
         name: "",
         adress: "",
         contact: "",
-      }, 
-    }
+      },
+    };
   },
+  methods: {
+    async updateRestaurant() {
+      const res = await axios.put(
+        "http://localhost:3000/restaurants/" + this.$route.params.id,
+        {
+          name: this.Restaurant.name,
+          adress: this.Restaurant.adress,
+          contact: this.Restaurant.contact,
+        }
+      );
 
-
- async mounted() {
-    let result =  await axios.get('http://localhost:3000/restaurants/' + this.$route.params.id)
-    console.warn(result)
-    this.Restaurant = result.data
+      if (res.status == 200) {
+        this.$router.push({ name: "home" });
+      }
+    },
   },
-  methods:{
-  async updateRestaurant () {
-   let res = await axios.post('http://localhost:3000/restaurants',{
-    name: this.Restaurant.name,
-    adress: this.Restaurant.adress,
-    contact: this.Restaurant.contact
-   });
-   if (res.status==201) {
-    this.$router.push('/')
-   }
-  }
+  async mounted() {
+    const result = await axios.get(
+      "http://localhost:3000/restaurants/" + this.$route.params.id
+    );
+
+    this.Restaurant = result.data;
   },
 };
 </script>

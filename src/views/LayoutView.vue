@@ -26,12 +26,6 @@
           value="account"
         ></v-list-item>
         <v-list-item
-          prepend-icon="mdi-update"
-          title="Update Restaurant"
-          value="update"
-          @click="goUpdate"
-        ></v-list-item>
-        <v-list-item
           prepend-icon="mdi-logout-variant"
           title="Logout"
           @click="logout()"
@@ -75,9 +69,7 @@ export default defineComponent({
     goHome() {
       this.$router.push('/')
     },
-    goUpdate() {
-      this.$router.push('/update')
-    }
+ 
   },
 });
 </script>
