@@ -93,202 +93,58 @@
   ],
   "restaurants": [
     {
-      "name": "Burger King",
-      "adress": "Noida Sector 50",
-      "contact": 512368548,
-      "id": "1"
-    },
-    {
-      "id": "2",
-      "name": "Dominos",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "id": "3",
-      "name": "Carl's Jr",
-      "contact": 463792,
-      "adress": "Babacan apt 52"
-    },
-    {
-      "id": "4",
-      "name": "Tavuk Dunyasi",
-      "contact": 9647243,
-      "adress": "Emaar Squqre 52"
-    },
-    {
-      "id": "5",
-      "name": "Gunaydin",
-      "contact": 15397,
-      "adress": "Hello site 23"
-    },
-    {
-      "name": "fouzia",
-      "adress": "Ile de Paris 75",
-      "contact": 15698,
-      "id": "6"
-    },
-    {
-      "id": "7",
-      "name": "PizzaGo",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "id": "8",
-      "name": "Green Salad",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "id": "9",
-      "name": "Kayseri Mutfak",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
       "id": "10",
       "name": "Kayseri Mutfak",
       "contact": 1259643,
       "adress": "Amacan site 23"
     },
     {
-      "id": "11",
-      "name": "Kayseri Mutfak",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "id": "12",
-      "name": "Kayseri Mutfak",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "id": "13",
-      "name": "Kayseri Mutfak",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "id": "14",
-      "name": "Kayseri Mutfak",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "id": "15",
-      "name": "Kayseri Mutfak",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "id": "16",
-      "name": "Kayseri Mutfak",
-      "contact": 1259643,
-      "adress": "Amacan site 23"
-    },
-    {
-      "name": "kfc",
-      "adress": "wrfbhgf",
-      "contact": "1258",
-      "id": "7xr4e3A"
-    },
-    {
-      "name": "tavuk",
-      "adress": "paris ile de france",
-      "contact": "12358",
-      "id": "GC-AJXz"
-    },
-    {
-      "name": "cafe de paris",
-      "adress": "istanbul 34000",
-      "contact": "12358",
-      "id": "JBnZKNK"
-    },
-    {
-      "name": "eere",
-      "adress": "eee",
-      "contact": "eeer",
-      "id": "32NuSHF"
-    },
-    {
-      "name": "dfghgh",
-      "adress": "serdu",
-      "contact": "reyutı",
-      "id": "4e35G4P"
-    },
-    {
-      "name": "hello",
-      "adress": "Babacan apt 52",
-      "contact": 463792,
-      "id": "Pv9IHmv"
-    },
-    {
-      "name": "hii",
-      "adress": "Amacan site 23",
-      "contact": 1259643,
-      "id": "QmWN-It"
-    },
-    {
-      "name": "hoho",
-      "adress": "155",
-      "contact": 1259643,
-      "id": "Y7G1X0y"
-    },
-    {
-      "name": "hhh",
-      "adress": "Babacan apt 52",
-      "contact": 463792,
-      "id": "Bzg1lSy"
-    },
-    {
-      "name": "hh",
-      "adress": "Amacan site 23",
-      "contact": 1259643,
-      "id": "Ai5x0de"
-    },
-    {
-      "name": "burger",
-      "adress": "Noida Sector 50",
-      "contact": 512368548,
-      "id": "6l7DJA4"
-    },
-    {
       "name": "Burger King",
-      "adress": "Noida Sector 50",
-      "contact": 512368548,
-      "id": "GZmrp-j"
+      "adress": "Paris Ile de France",
+      "contact": "12548",
+      "id": "VZPRVN0"
     },
     {
-      "name": "viande",
-      "adress": "wtoulouse",
-      "contact": "1236587",
-      "id": "bjI17jw"
+      "name": "Tavuk Dunyasi",
+      "adress": "İstanbul 34000",
+      "contact": "25971",
+      "id": "5mfppP0"
     },
     {
-      "name": "Burger King",
-      "adress": "Noida Sector 50",
-      "contact": 512368548,
-      "id": "8F1ms6c"
+      "name": "Green Salad ",
+      "adress": "Toulouse ",
+      "contact": "1259872",
+      "id": "CFGtwnQ"
     },
     {
-      "name": "fouzia",
-      "adress": "paris 21",
-      "contact": "1234",
-      "id": "6ggoZX_"
+      "name": "Carl' Jr",
+      "adress": "Belgique cite 25",
+      "contact": "1236578",
+      "id": "aKqveHK"
     },
     {
-      "name": "fouzia",
-      "adress": "Amacan site 23",
-      "contact": 1259643,
-      "id": "HQzfkVw"
+      "name": "KFC",
+      "adress": "İzmir",
+      "contact": "569712",
+      "id": "WgW2gdx"
     },
     {
-      "name": "fouzia",
-      "adress": "Noida Sector 50",
-      "contact": 512368548,
-      "id": "sIgbC4I"
+      "name": "Gunaydin",
+      "adress": "Trabzon",
+      "contact": "129788452",
+      "id": "yz1R0tK"
+    },
+    {
+      "name": "Kayseri Mutfak",
+      "adress": "İstanbul",
+      "contact": "1236589",
+      "id": "oinV-If"
+    },
+    {
+      "name": "Et Guzel",
+      "adress": "Paris",
+      "contact": "2368787",
+      "id": "0aM5eJq"
     }
   ]
 }
